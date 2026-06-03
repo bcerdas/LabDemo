@@ -4,6 +4,8 @@
 
 package com.mycompany.labdemoproyecto;
 
+import Clientes.Cliente;
+
 /**
  *
  * @author bryan
@@ -11,6 +13,10 @@ package com.mycompany.labdemoproyecto;
 public class LabDemoProyecto {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Proyecto de progra!");
+        
+        Clientes.Cliente cliente = new Clientes.Cliente("1234567");
+        
+        
     }
 }
