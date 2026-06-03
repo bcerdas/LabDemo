@@ -17,6 +17,6 @@ public class LabDemoProyecto {
         
         Clientes.Cliente cliente = new Clientes.Cliente("1234567");
         
-        
+        System.out.println(cliente.identificacion);
     }
 }
